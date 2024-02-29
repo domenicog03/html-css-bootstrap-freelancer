@@ -1,0 +1,153 @@
+/*---------- Background --------*/
+.ms-bg-darkblue{
+    background-color: #2C3E50;
+}
+.ms-bg-lightgreen{
+    background-color: #1abc9c;
+}
+.ms-bg-lightblue{
+    background-color: #3a546d;
+}
+
+
+
+
+/*-------- Typ ------- */
+header .ms-h2{
+    margin: 0;
+}
+.star{
+    font-size: 20px;
+}
+
+
+
+
+/*------------ GENERALE ------------*/
+img{
+    max-width: 100%;
+}
+
+.hero img{
+    max-width: 250px;
+}
+
+
+.ms-nav-link{
+    color: white;
+}
+
+
+
+
+
+
+.ms-bg-lightgreen .star{
+    color: white
+}
+
+
+
+
+.star{
+    position: relative;
+    color: #2c3e50;
+}
+.star-left::before{
+    content: '';
+    border-bottom: 2px solid #2c3e50;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    width: 8vw;
+}
+.star-left-white::before{
+    content: '';
+    border-bottom: 2px solid white;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    width: 8vw;
+}
+.star-right::after{
+    content: '';
+    border-top: 2px solid #2c3e50;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    width: 8vw;
+}
+.star-right-white::after{
+    content: '';
+    border-bottom: 2px solid white;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    width: 8vw;
+}
+
+
+.anchor{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.plus-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(26, 188, 156, 0.7);
+    font-size: 70px;
+    color: white;
+    display: none;
+}
+
+
+.anchor:hover .plus-hover{
+    display: block;
+}
+.plus-hover i{
+    position: relative;
+    top: 50%;  
+    transform: translate(0 , -50%);
+}
+
+
+.ms-input input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+}
+.ms-input input:focus,
+.ms-input textarea:focus{
+    border: 2px solid #1abc9c;
+    box-shadow: none;
+}
+.ms-input textarea{
+    resize: none;
+}
+.ms-white-btn:hover,
+.ms-white-btn:hover #txt-black{
+    background-color: white;
+    color: black;
+    transition: 0s;
+}
+button a,
+.info a{
+    text-decoration: none;
+    color: white;
+}
+form .btn:hover{
+    background-color: #1abc9c;
+}
+
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+}
